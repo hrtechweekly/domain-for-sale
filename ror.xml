@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+<item>
+     <link>https://hrtechweekly.com/</link>
+     <title>The HR Tech Weekly® - Domain for Sale. Buy It Now!</title>
+     <description>Well known premium domain name hrtechweekly.com is available for instantly purchase. Invest in a great digital asset to launch your media business.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://hrtechweekly.com/ru/</link>
+     <title>The HR Tech Weekly® - Домен продается. Купить в магазине доменов RU-CENTER</title>
+     <description>Премиальное доменное имя hrtechweekly.com доступно для покупки. Инвестируйте в отличный цифровой актив, начните свой медиа-бизнес.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>

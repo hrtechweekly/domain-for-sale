@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!-- PUBLIC "-//DUBLIN CORE//DCMES DTD 2002/07/31//EN" "http://dublincore.org/specifications/dublin-core/dcmes-xml/2002-07-31/dcmes-xml-dtd.dtd" -->
+<schema
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" targetNamespace="http://purl.org/dc/elements/1.1/">
+	<annotation>
+		<documentation xml:lang="en" source="http://dublincore.org/documents/2002/07/31/dcmes-xml/"></documentation>
+	</annotation>
+	<import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+	<dc:subject>hrtechweekly, hrtechweekly.com, hr tech weekly, for sale, premium domain, domain name, media business, online media</dc:subject>
+	<dc:description>Well known premium domain name hrtechweekly.com is available for instantly purchase. Invest in a great digital asset to launch your media business.</dc:description>
+	<dc:abstract>Domain for Sale</dc:abstract>
+	<dc:title>The HR Tech Weekly® - Domain for Sale. Buy It Now!</dc:title>
+	<dcterms:alternative>The HR Tech Weekly® - Domain for Sale. Buy It Now!</dcterms:alternative>
+	<dc:creator>The HR Tech Weekly®</dc:creator>
+	<dc:publisher>The HR Tech Weekly®</dc:publisher>
+	<dc:contributor>Editorial Team</dc:contributor>
+	<dc:type xsi:type="dcterms:DCMIType">Service</dc:type>
+	<dcterms:format xsi:type="dcterms:IMT">text/html</dcterms:format>
+	<dc:rights>The HR Tech Weekly®</dc:rights>
+	<dcterms:rightsholder>The HR Tech Weekly®</dcterms:rightsholder>
+	<dcterms:audience>Business</dcterms:audience>
+	<dc:coverage xsi:type="dcterms:ISO3166">US, RU, World</dc:coverage>
+	<dc:language xsi:type="dcterms:ISO639">en</dc:language>
+	<dc:publisher.url xsi:type="dcterms:URI">https://hrtechweekly.com/</dc:publisher.url>
+	<dc:identifier xsi:type="dcterms:URI">https://hrtechweekly.com/</dc:identifier>
+	<dc:relation xsi:type="dcterms:URI">https://hrtechweekly.com/</dc:relation>
+	<dcterms:isPartOf xsi:type="dcterms:URI">https://hrtechweekly.com/</dcterms:isPartOf>
+</schema>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<json>
+  <XML_Serializer_Tag>https://schema.org/</XML_Serializer_Tag>
+  <XML_Serializer_Tag>
+    <XML_Serializer_Tag>WebSite</XML_Serializer_Tag>
+    <XML_Serializer_Tag>https://hrtechweekly.com/#website</XML_Serializer_Tag>
+    <url>https://hrtechweekly.com/</url>
+    <inLanguage>en, ru</inLanguage>
+    <name>The HR Tech Weekly® - Domain for Sale. Buy It Now!</name>
+    <description>Well known premium domain name hrtechweekly.com is available for instantly purchase. Invest in a great digital asset to launch your media business.</description>
+    <potentialAction>
+      <XML_Serializer_Tag>SearchAction</XML_Serializer_Tag>
+      <target>https://hrtechweekly.com/?s={query}</target>
+      <query-input>required name=query</query-input>
+    </potentialAction>
+  </XML_Serializer_Tag>
+  <XML_Serializer_Tag>
+    <XML_Serializer_Tag>WebPage</XML_Serializer_Tag>
+    <XML_Serializer_Tag>https://hrtechweekly.com/#webpage</XML_Serializer_Tag>
+    <url>https://hrtechweekly.com/</url>
+    <inLanguage>en</inLanguage>
+    <name>The HR Tech Weekly® - Domain for Sale. Buy It Now!</name>
+    <isPartOf>
+      <XML_Serializer_Tag>https://hrtechweekly.com.gq/#website</XML_Serializer_Tag>
+    </isPartOf>
+  </XML_Serializer_Tag>
+  <XML_Serializer_Tag>https://schema.org/</XML_Serializer_Tag>
+  <XML_Serializer_Tag>Organization</XML_Serializer_Tag>
+  <name>The HR Tech Weekly®</name>
+  <XML_Serializer_Tag>https://hrtechweekly.com/#organization</XML_Serializer_Tag>
+  <url>https://hrtechweekly.com/</url>
+  <logo>
+    <XML_Serializer_Tag>ImageObject</XML_Serializer_Tag>
+    <url>https://hrtechweekly.com./images/hrtw-logo-fhd.png</url>
+    <width>1920</width>
+    <height>1080</height>
+    <caption>FHD Logotype of The HR Tech Weekly®</caption>
+    <XML_Serializer_Tag>https://hrtechweekly.com/#logo</XML_Serializer_Tag>
+  </logo>
+  <contactPoint>
+    <XML_Serializer_Tag>ContactPoint</XML_Serializer_Tag>
+    <email>info@hrtechweekly.com</email>
+    <contactType>customer service</contactType>
+    <areaServed>US, RU, World</areaServed>
+    <availableLanguage>en</availableLanguage>
+    <availableLanguage>Russian</availableLanguage>
+  </contactPoint>
+  <sameAs>https://www.hrtechweekly.com/</sameAs>
+  <sameAs>https://crunch.hrtechweekly.com/</sameAs>
+  <sameAs>https://journal.hrtechweekly.com/</sameAs>
+  <sameAs>https://magazine.hrtechweekly.com/</sameAs>
+  <sameAs>https://hrtechweekly.wordpress.com/</sameAs>
+  <XML_Serializer_Tag>https://schema.org/</XML_Serializer_Tag>
+  <XML_Serializer_Tag>ServiceChannel</XML_Serializer_Tag>
+  <availableLanguage>
+    <XML_Serializer_Tag>Language</XML_Serializer_Tag>
+    <name>English</name>
+    <identifier>EN</identifier>
+  </availableLanguage>
+  <availableLanguage>
+    <XML_Serializer_Tag>Language</XML_Serializer_Tag>
+    <name>Russian</name>
+    <identifier>RU</identifier>
+  </availableLanguage>
+  <XML_Serializer_Tag>https://schema.org/</XML_Serializer_Tag>
+</json>

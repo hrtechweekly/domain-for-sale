@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+    xmlns:g="http://base.google.com/ns/1.0">
+    <ShortName>Web Search</ShortName>
+    <LongName>The HR Tech Weekly® Web Search</LongName>
+    <Description>This is the web search form for the website at hrtechweekly.com. The premium domain name hrtechweekly.com is for sale. Don't miss the opportunity to buy it!</Description>
+    <Tags>hrtechweekly, hrtechweekly.com, hr tech weekly, for sale, premium domain, domain name, media business, online media</Tags>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <Image width="64" height="64" type="image/png">https://hrtechweekly.com/images/opensearch-image.png</Image>
+    <Image width="32" height="32" type="image/x-icon">https://hrtechweekly.com/favicon.ico</Image>
+    <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFUSURBVDhPY2RY+YaBFMAEpYkGFGvgZ2VU4WFmZ4RygUCAlbFeixPKYWBggdJgiXw1jj//GN79+ifMxibHxdR/68fzH/8WmPL4y7DxsDKWXvwGVAb1NDcLY4U6x9z7Px98+wfWDgKTDLh1BZgdxFjPvv/jcuDTh9//gYJQJ4VKs+1+9VuSE+FCoIWyXExA1eeQVAMBVIUSD9On3/+32fGddOZnYwSpnm/GEyDD9u8/Q+DRz3DVQAD1AzMDw8sf/x9//WsmzHLShf/B138B0mzn3//Z8PTXX4RiEIDaADQC6D+7/Z+AigwEWYBmX/jwx+nAJyE2xqffEb4CAqiGBQ9/FqhyAK223Pvx4KvfQNWO+z9JcjABrYIogANE0oiQZVPgYu64+R3IBvrBQIDFT4q16dp3ZA8AAUpaMhBgjpBlB3qUiZHh2qc/Sx+hewAIBl3iY2AAAPSdiJcsp1+6AAAAAElFTkSuQmCC</Image>
+    <Url type="application/atom+xml" template="https://hrtechweekly.com/?s={searchTerms}&amp;feed=atom" />
+    <Url type="rss+xml" template="https://hrtechweekly.om/?s={searchTerms}&amp;feed=rss2" />
+    <Url type="text/html" rel="results" indexOffset="1" pageOffset="1" template="https://hrtechweekly.com/?q={searchTerms}&amp;pw={startPage?}" />
+        <Param name="hrtechweekly" value="{searchTerms}" />
+        <Param name="hrtechweekly.com" value="{searchTerms}" />
+        <Param name="hr tech weekly" value="{searchTerms}" />
+        <Param name="for sale" value="{searchTerms}" />
+        <Param name="premium domain" value="{searchTerms}" />
+        <Param name="domain name" value="{searchTerms}" />
+        <Param name="media business" value="{searchTerms}" />
+        <Param name="online media" value="{searchTerms}" />
+    </Url>
+    <Url type="application/x-moz-keywordsearch" rel="results" template="https://hrtechweekly.com/?q={searchTerms}" />
+    <Url type="application/x-suggestions+json" rel="suggestions" template="https://hrtechweekly.com/?q={searchTerms}" />
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://hrtechweekly.com/opensearch.xml" />
+    <moz:SearchForm>https://hrtechweekly.com/</moz:SearchForm>
+    <Query role="example" searchTerms="hrtechweekly" title="Sample Search"/>
+    <opensearch:Query role="request" searchTerms="domain name" />
+    <opensearch:Query role="related" searchTerms="hrtechweekly.com" />
+    <opensearch:Query role="related" searchTerms="hr tech weekly" />
+    <opensearch:Query role="related" searchTerms="for sale" />
+    <opensearch:Query role="related" searchTerms="premium domain" />
+    <opensearch:Query role="related" searchTerms="media business" />
+    <opensearch:Query role="related" searchTerms="online media" />
+    <opensearch:Query role="related" searchTerms="#hrtech" />
+    <opensearch:Query role="related" searchTerms="hrtech" />
+    <opensearch:Query role="related" searchTerms="hrtech blog" />
+    <opensearch:Query role="related" searchTerms="hrtech blogs" />
+    <opensearch:Query role="related" searchTerms="hr tech" />
+    <opensearch:Query role="related" searchTerms="hr tech blog" />
+    <opensearch:Query role="related" searchTerms="hr tech blogs" />
+    <opensearch:Query role="related" searchTerms="hrtechnology" />
+    <opensearch:Query role="related" searchTerms="hr technology" />
+    <opensearch:Query role="related" searchTerms="hr" />
+    <opensearch:Query role="related" searchTerms="hr management" />
+    <opensearch:Query role="related" searchTerms="hr blog" />
+    <opensearch:Query role="related" searchTerms="hr blogs" />
+    <opensearch:Query role="related" searchTerms="best hr blogs" />
+    <opensearch:Query role="related" searchTerms="best hrtech blogs" />
+    <opensearch:Query role="related" searchTerms="best hr tech blogs" />
+    <opensearch:Query role="related" searchTerms="human resource" />
+    <opensearch:Query role="related" searchTerms="human resources" />
+    <opensearch:Query role="related" searchTerms="recruitment" />
+    <opensearch:Query role="related" searchTerms="hiring" />
+    <opensearch:Query role="related" searchTerms="job search" />
+    <opensearch:Query role="related" searchTerms="future of work" />
+    <opensearch:Query role="related" searchTerms="people analytics" />
+    <opensearch:Query role="related" searchTerms="people science" />
+    <opensearch:Query role="related" searchTerms="people management" />
+    <opensearch:Query role="related" searchTerms="talent" />
+    <opensearch:Query role="related" searchTerms="talent management" />
+    <opensearch:Query role="related" searchTerms="leadership" />
+    <opensearch:Query role="related" searchTerms="startup" />
+    <opensearch:Query role="related" searchTerms="startups" />
+    <opensearch:Query role="related" searchTerms="big data" />
+    <opensearch:Query role="related" searchTerms="bigdata" />
+    <opensearch:Query role="related" searchTerms="artificial intelligence" />
+    <opensearch:Query role="related" searchTerms="ai" />
+    <opensearch:Query role="related" searchTerms="virtual reality" />
+    <opensearch:Query role="related" searchTerms="vr" />
+    <opensearch:Query role="related" searchTerms="augmented reality" />
+    <opensearch:Query role="related" searchTerms="ar" />
+    <opensearch:Query role="correction" searchTerms="hrtechweekly" totalResults="854000" title="Spelling Correction" />
+    <opensearch:Query role="subset" searchTerms="best hr tech blogs" />
+    <opensearch:Query role="superset" searchTerms="hr tech blogs" />
+    <opensearch:Query role="custom:synonym" searchTerms="hrtechweekly.com" />
+    <opensearch:Query role="custom:synonym" searchTerms="hr tech weekly" />
+    <opensearch:Query role="custom:synonym" searchTerms="the hr tech weekly" />
+    <opensearch:Query role="custom:synonym" searchTerms="domain for sale" />
+    <opensearch:totalResults>4230000</opensearch:totalResults>
+    <opensearch:startIndex>1</opensearch:startIndex>
+    <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+    <Contact>info@hrtechweekly.com</Contact>
+    <Developer>codexgq</Developer>
+    <Attribution>
+        Copyright © 2015-2022 The HR Tech Weekly®
+    </Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <AdultContent>false</AdultContent>
+    <Language>en</Language>
+    <Language>ru</Language>
+    <Contact>info@hrtechweekly.com</Contact>
+</OpenSearchDescription>

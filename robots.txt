@@ -1,0 +1,97 @@
+User-agent: *
+Disallow:
+
+User-agent: GoogleBot
+User-agent: GoogleBot-Mobile
+User-agent: GoogleBot-Image
+User-agent: GoogleBot-News
+User-agent: FeedFetcher-Google
+User-agent: Google-Read-Aloud
+User-agent: DuplexWeb-Google
+User-agent: Google Favicon
+User-agent: gsa-crawler
+Disallow:
+
+User-agent: Yandex
+User-agent: YandexBot
+User-agent: YandexImages
+User-agent: YandexWebmaster
+User-agent: YandexBlogs
+User-agent: YandexAccessibilityBot
+User-agent: YandexDirectDyn
+User-agent: YandexFavicons
+User-agent: YandexImageResizer
+User-agent: YandexMobileScreenShotBot
+User-agent: YandexOntoDB
+User-agent: YandexOntoDBAPI
+User-agent: YandexRCA
+User-agent: YandexSitelinks
+User-agent: YandexTurbo
+User-agent: YandexScreenshotBot
+User-agent: YandexMetrika
+Disallow:
+Crawl-delay: 2.0
+
+User-agent: Facebot
+User-agent: facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
+User-agent: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+User-agent: Twitterot
+User-agent: LinkedInBot
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: Exabot
+User-agent: Sogou
+User-agent: Sosospider
+User-agent: Applebot
+User-agent: TechnicalSEOdotCom
+User-agent: rogerbot
+User-agent: DotBot
+User-agent: MJ12bot
+User-agent: AhrefsBot
+User-agent: OnCrawl
+User-agent: Botify
+User-agent: ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)
+User-agent: ia_archiver-web.archive.org
+User-agent: SeznamBot
+User-agent: FreshBot
+User-agent: Teoma
+User-agent: Gigabot
+User-agent: Robozilla
+User-agent: Nutch
+User-agent: naverbot
+User-agent: yeti
+User-agent: psbot
+User-agent: asterias
+User-agent: Meltwater
+User-agent: Seranking_audit_bot
+User-agent: AboutUsBot
+User-agent: Scrubby
+User-agent: StackRambler
+User-agent: Aport
+User-agent: SAPE.BOT
+User-agent: yahoo-mmcrawler
+User-agent: yahoo-blogs/v3.9
+User-agent: sandcrawler
+User-agent: jeeves
+Disallow:
+
+User-agent: Bingbot
+User-agent: MSNBot
+User-agent: MSNBot-media
+User-agent: MSNBot-news
+User-agent: MSNBot-NewsBlogs
+User-agent: Slurp
+Disallow:
+Crawl-delay: 0.3
+
+User-agent: Mail.Ru
+Disallow: /bootstrap/
+Disallow:
+Crawl-delay: 0.25
+
+Host: https://hrtechweekly.com/
+
+Sitemap: https://hrtechweekly.com/sitemap.xml
+Sitemap: https://hrtechweekly.com/ror.xml
+Sitemap: https://hrtechweekly.com/hreflang.xml
+Sitemap: https://hrtechweekly.com/urllist.txt
