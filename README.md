@@ -39,5 +39,4 @@ Top tier [`domain store`](https://www.nic.ru/en/shop/lot/hrtechweekly.com/) guar
 Price may vary depending on the exchange rate. Negotiation is available!
   
 Domains like [`hrtechweekly.com`](https://hrtechweekly.com/) are in high demand, don't miss the opportunity to own this one.
-  
-**[`BUY IT NOW`](https://www.nic.ru/en/shop/lot/hrtechweekly.com/)**
+
