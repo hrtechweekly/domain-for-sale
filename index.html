@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!-- PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" -->
+<html lang="zxx" xml:lang="zxx" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head itemscope itemtype="http://schema.org/WPHeader">
+	<!-- schema.org scope WPHeader-->
+	<meta charset="utf-8"><!-- Meta Core-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Internet Explorer Rendering ("old but not useless")-->
+	<!-- Base URL-->
+	<base href="">
+	<!-- START Profiles-->
+	<!-- XFN 1.1 Profile-->
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<!-- OpenSearch Profile-->
+	<link rel="profile" href="http://a9.com/-/spec/opensearch/1.1/">
+	<!-- DCMI Profile-->
+	<link rel="profile" href="https://www.dublincore.org/specifications/dublin-core/dc-html/">
+	<!-- Dublin Core Metatag Initiative-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+	<!-- END Profiles-->
+	<!-- A super tiny, native performant library for lazy-loading JS, CSS, images, iframes... Easily speed up a website!-->
+	<script>
+	! function(e, o, t, n, i, r) { // This script should always go inline as early as possible for better performance.
+		function c(e, t) {
+			r ? n(e, t || 32) : i.push(e, t)
+		}
+
+		function f(e, t, n, i) {
+			return t && o.getElementById(t) || (i = o.createElement(e || 'SCRIPT'), t && (i.id = t), n && (i.onload = n), o.head.appendChild(i)), i || {}
+		}
+		r = /p/.test(o.readyState), e.addEventListener('on' + t in e ? t : 'load', function() {
+			for(r = 1; i[0];) c(i.shift(), i.shift())
+		}), c._ = f, e.defer = c, e.deferscript = function(e, t, n, i) {
+			c(function() {
+				f('', t, i).src = e
+			}, n)
+		}
+	}(this, document, 'pageshow', setTimeout, []),
+	function(s, n) {
+		var a = 'IntersectionObserver',
+			d = 'src',
+			l = 'lazied',
+			h = 'data-',
+			m = h + l,
+			y = 'load',
+			p = 'forEach',
+			b = 'getAttribute',
+			g = 'setAttribute',
+			v = Function(),
+			I = s.defer || v,
+			c = I._ || v;
+
+		function A(e, t) {
+			return [].slice.call((t || n).querySelectorAll(e))
+		}
+
+		function e(u) {
+			return function(e, t, o, r, c, f) {
+				I(function(n, t) {
+					function i(n) {
+						!1 !== (r || v).call(n, n) && ((f || ['srcset', d, 'style'])[p](function(e, t) {
+							(t = n[b](h + e)) && n[g](e, t)
+						}), A('SOURCE', n)[p](i), y in n && n[y]()), n.className += ' ' + (o || l)
+					}
+					t = a in s ? (n = new s[a](function(e) {
+						e[p](function(e, t) {
+							e.isIntersecting && (t = e.target) && (n.unobserve(t), i(t))
+						})
+					}, c)).observe.bind(n) : i, A(e || u + '[' + h + d + ']:not([' + m + '])')[p](function(e) {
+						e[b](m) || (e[g](m, u), t(e))
+					})
+				}, t)
+			}
+		}
+
+		function t() {
+			I(function(t, n, i, o, r) {
+				t = A((i = '[type=deferjs]') + ':not(' + (o = '[async]') + ')').concat(A(i + o)),
+					function e() {
+						if(0 != t) {
+							for(o in (i = t.shift()).parentNode.removeChild(i), i.removeAttribute('type'), n = c(i.nodeName), i) 'string' == typeof(r = i[o]) && n[o] != r && (n[o] = r);
+							n[d] && !n.hasAttribute('async') ? n.onload = n.onerror = e : I(e, .1)
+						}
+					}()
+			}, 4)
+		}
+		t(), s.deferstyle = function(t, n, e, i) {
+			I(function(e) {
+				(e = c('LINK', n, i)).rel = 'stylesheet', e.href = t
+			}, e)
+		}, s.deferimg = e('IMG'), s.deferiframe = e('IFRAME'), I.all = t
+	}(this, document);
+	</script>
+	<!-- Viewpoint Mode-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Meta Data - Key-->
+	<meta name="description" lang="zxx" xml:lang="zxx" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+	<meta name="keywords" lang="zxx" xml:lang="zxx" content="">
+	<!-- ...then Item Property for Schema.org-->
+	<meta itemprop="description" content="">
+	<meta itemprop="keywords" content="">
+	<!-- ...and DCMI-->
+	<meta name="DC.Subject" content="">
+	<meta name="DC.Description" content="">
+	<meta name="abstract" content="">
+	<!-- ...then Item Property for Schema.org-->
+	<meta itemprop="abstract" content="">
+	<!-- ...and DCMI-->
+	<meta name="DC.Abstract" content="">
+	<!-- Title (incl. Item Property for Schema.org)-->
+	<title itemprop="headline">YourDomain.com - Domain for Sale. Buy It Now!</title>
+	<!-- ...and ROR-->
+	<meta name="title" content="">
+	<!-- ...and DCMI-->
+	<meta name="DC.Title" content="">
+	<meta name="DCTERMS.Alternative" content="">
+	<!-- Cascade Style Sheets Files (CSS)-->
+	<!-- Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap" rel="stylesheet preload" as="style" type="text/css" crossorigin="anonymous" referrerpolicy="no-referrer" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic&display=swap" rel="stylesheet preload" as="style" type="text/css" crossorigin="anonymous" referrerpolicy="no-referrer" media="all">
+	<!-- Vendor CSS-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<!-- Theme CSS-->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!-- END Cascade Style Sheets Files (CSS). NB: Don't change the order of appearance as it may influence the rendering.-->
+	<!-- UI & UX Custom Inline CSS-->
+	<!-- END UI & UX Custom Inline CSS-->
+	<!-- Facebook Open Graph-->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:locale" content="">
+	<meta property="og:locale:alternate" content="">
+	<meta property="fb:app_id" content="">
+	<!-- Open Graph Image-->
+	<meta property="og:image" content="">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<!-- Twitter Markup-->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:country" content="">
+	<!-- Twitter Image-->
+	<meta name="twitter:image" content="">
+	<meta name="twitter:image:alt" content="">
+	<meta name="twitter:image:width" content="1024">
+	<meta name="twitter:image:height" content="512">
+	<!-- Favicon Package-->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+	<!--[if IE]>
+            <link rel="shortcut icon" type="image/x-icon" href="" />
+        <![endif]-->
+	<link rel="shortcut icon" href="#"> <!-- sizes="16x16"-->
+	<link sizes="32x32" rel="icon" href="#">
+	<link sizes="180x180" rel="apple-touch-icon" href="#">
+	<link sizes="192x192" rel="icon" href="#">
+	<meta name="msapplication-TileImage" content=""> <!-- sizes="270x270"-->
+	<!-- Meta Data - Other-->
+	<meta name="copyright" content="">
+	<meta name="reply-to" content="">
+	<meta name="publisher" content="">
+	<meta name="author" content="" lang="zxx" xml:lang="zxx" title="">
+	<meta name="designer" content="codexgq (URL: https://codex.gq GitHub: https://github.com/codexgq Email: info@codex.gq)">
+	<meta name="rating" content="">
+	<meta name="classification" content="">
+	<meta name="distribution" content="">
+	<meta name="generator" content="">
+	<meta name="template" content="Domain For Sale Free Theme v1.0.0">
+	<meta name="resource-type" content="">
+	<!-- ...then Item Property for Schema.org-->
+	<meta itemprop="publisher" content="">
+	<!-- ...and DCMI-->
+	<meta name="DC.Creator" content="">
+	<meta name="DC.Publisher" content="">
+	<meta name="DC.Publisher.URL" content="">
+	<meta name="DC.Contributor" content="">
+	<meta name="DC.Type" content="">
+	<meta name="DC.Format" content="text/html">
+	<meta name="DC.Rights" content="">
+	<meta name="DCTERMS.RightsHolder" content="">
+	<meta name="DC.Audience" content="">
+	<!-- Contacts-->
+	<link rel="help" href="mailto:name@email(dot)address">
+	<!-- Robots-->
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="document-state" content="">
+	<meta name="revisit-after" content="">
+    <!-- OpenSearch-->
+    <link rel="search" type="application/opensearchdescription+xml" title="" href="#"> <!-- .opensearch.xml-->
+    <meta name="totalResults" content="4230000">
+    <meta name="startIndex" content="1">
+    <meta name="itemsPerPage" content="10">
+	<!-- Referrer Policy-->
+	<meta name="referrer" content="no-referrer-when-downgrade">
+	<!-- Mobile-->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<!-- iOS-->
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<!-- Android-->
+	<meta name="theme-color" content="">
+	<meta name="mobile-web-app-capable" content="yes">
+	<!-- UC Mobile Browser-->
+	<meta name="full-screen" content="yes">
+	<meta name="browsermode" content="application">
+	<meta name="imagemode" content="force">
+	<meta name="nightmode" content="disable">
+	<meta name="layoutmode" content="fitscreen">
+	<meta name="full-screen" content="yes">
+	<!-- QQ Mobile Browser-->
+	<meta name="X5-fullscreen" content="true">
+	<meta name="X5-page-mode" content="app">
+	<!-- Fast Mode with 360 Browser Enabled-->
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta name="force-rendering" content="webkit">
+	<!-- MS Application-->
+	<meta name="msapplication-config" content="">
+	<meta name="msapplication-window" content="width=1024;height=768">
+	<meta name="msapplication-allowDomainMetaTags" content="true">
+	<!-- Pinned Sites-->
+	<meta name="application-name" content="">
+	<meta name="application-name" lang="" content="">
+	<meta name="msapplication-tooltip" content="">
+	<meta name="msapplication-starturl" content="">
+	<!-- Windows 8, 10 Color Scheme-->
+	<meta name="msapplication-navbutton-color" content="">
+	<meta name="msapplication-TileColor" content="">
+	<!-- IE Separate Tasks-->
+	<meta name="msapplication-task" content="name=English;
+            action-uri=;
+            icon-uri=">
+	<meta name="msapplication-task" content="name=Spanish (Español);
+            action-uri=;
+            icon-uri=">
+	<!-- Tap Highlighting-->
+	<meta name="msapplication-tap-highlight" content="no">
+	<!-- IE Comments Done Right-->
+	<!--[if lt IE 7]>     <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>        <html class="lt-ie9 lt-ie8">        <![endif]-->
+	<!--[if IEMobile 7 ]> <html class="iem7" lang="zxx"> <![endif]-->
+	<!--[if IE 8]>        <html class="lt-ie9">               <![endif]-->
+	<!--[if gt IE 8]>     <!-->
+	<!--<![endif]-->
+	<!-- saved from url=(0014)about:internet -->
+	<!-- Display Mode-->
+	<meta name="display" content="standalone">
+	<!-- Geo Tags-->
+	<meta name="geo.region" content="">
+	<!-- ...and DCMI-->
+	<meta name="DC.Coverage" content="">
+	<!-- Content Language-->
+	<meta name="language" content="zxx">
+	<!-- ...then Item Property for Schema.org-->
+	<meta itemprop="inLanguage" content="zxx">
+	<!-- ...and DCMI-->
+	<meta name="DC.Language" content="zxx">
+	<!-- END Content Language-->
+	<!-- SEO Core-->
+	<link rel="canonical" href="#">
+	<!-- ...then Item Property for Schema.org-->
+	<link itemprop="url" data-rel="canonical" content="" href="#">
+	<!-- ...and DCMI-->
+	<meta name="DC.Identifier" content="">
+	<link rel="DC.Identifier" href="#">
+	<meta name="DC.Relation" content="">
+	<meta name="DCTERMS.isPartOf" content="">
+	<!-- Hreflang Tags-->
+	<!-- Main Language-->
+	<link rel="alternate" hreflang="zxx" href="#" lang="" xml:lang="" title="">
+	<!-- Other Languages-->
+	<link rel="alternate" hreflang="zxx" href="#" lang="" xml:lang="" title="">
+	<!-- Default-->
+	<link rel="alternate" hreflang="x-default" href="#">
+	<!-- END Hreflang Tags-->
+	<!-- Markup (JSON-LD) structured in Schema.org START-->
+	<!-- WebSite Markup-->
+	<script type='application/ld+json'>
+	{
+		"@context": "https://schema.org/",
+		"@graph": [{
+			"@type": "WebSite",
+			"@id": "",
+			"url": "",
+			"inLanguage": "",
+			"name": "",
+			"description": "",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "./?s={query}",
+				"query-input": "required name=query"
+			}
+		}, {
+			"@type": "WebPage",
+			"@id": "",
+			"url": "",
+			"inLanguage": "",
+			"name": "",
+			"description": "",
+			"isPartOf": {
+				"@id": ""
+			}
+		}]
+	}
+	</script>
+	<!-- Organization-->
+	<script type='application/ld+json'>
+	{
+		"@context": "https://schema.org/",
+		"@type": "Organization",
+		"name": "",
+		"@id": "",
+		"url": "",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "",
+			"width": 1920,
+			"height": 1080,
+			"caption": "",
+			"@id": ""
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"email": "",
+			"contactType": "",
+			"areaServed": "",
+			"availableLanguage": ["", ""]
+		},
+		"sameAs": ["", ""]
+	}
+	</script>
+	<!-- ServiceChannel-->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org/",
+		"@type": "ServiceChannel",
+		"availableLanguage": [{
+			"@type": "Language",
+			"name": "",
+			"identifier": ""
+		}, {
+			"@type": "Language",
+			"name": "",
+			"identifier": ""
+		}]
+	}
+	</script>
+	<!-- END Markup (JSON-LD) structured in Schema.org-->
+	<!-- XML Meta Tags-->
+    <!-- Linking to Schema.org metadata (JSON-LD) in XML from HTML-->
+    <link rel="meta" href="#"> <!-- .schema.xml-->
+    <!-- Linking to Dublin Core™ metadata in XML from HTML-->
+    <link rel="meta" href="#"> <!-- .dc.xml-->
+    <!-- RSS Feed-->
+    <link href="#" rel="alternate" type="application/rss+xml" title="">
+	<!-- Sitemaps-->
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="#"> <!-- .sitemap.xml-->
+	<link rel="meta" href="#"> <!-- .ror.xml-->
+	<link rel="meta" href="#"> <!-- .hreflang.xml-->
+	<link rel="meta" href="#"> <!-- .urllist.txt-->
+	<!-- END XML Meta Tags. NB: .xml links should a full URI-->
+	<!-- .this is the end my freind-->
+	<!-- START ANALYTICS ('<head>')-->
+	<!-- Yandex.Metrika Counter-->
+	<!-- END Yandex.Metrika Counter-->
+	<!-- Global Site Tag (gtag.js) - Google Analytics-->
+	<!-- Google Tag Manager-->
+	<!-- End Google Tag Manager-->
+	<!-- END ANALYTICS ('<head>')-->
+</head>
+
+<body>
+	<span id="*">
+	</span>
+	<!-- .website @id schema.org-->
+	<span id="**">
+	</span>
+	<!-- .webpage @id schema.org-->
+	<span id="***">
+	</span>
+	<!-- .organization @id schema.org-->
+	<!-- START ANALYTICS ('<body>')-->
+	<!-- Google Tag Manager (noscript)-->
+	<!--noindex-->
+	<!--/noindex-->
+	<!-- End Google Tag Manager (noscript)-->
+	<!-- Yandex.Metrika Counter (noscript)-->
+	<!--noindex-->
+	<!--/noindex-->
+	<!-- END Yandex.Metrika Counter (noscript)-->
+	<!-- END ANALYTICS ('<body>')-->
+	<!-- Preloader-->
+	<div class="preloader">
+		<div class="lds-ellipsis">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- END Preloader-->
+	<!-- START SITE CONTENT-->
+	<div itemscope itemtype="https://schema.org/WebSite">
+		<!-- schema.org scope WebSite-->
+		<meta itemprop="name" content="">
+		<meta itemprop="description" content="">
+	</div>
+	<!-- START Document Wrapper-->
+	<div id="main-wrapper">
+		<!-- id @main-wrapper-->
+		<div class="container-fluid px-0">
+			<!-- container-fluid-->
+			<section class="hero-wrap">
+				<!-- section-hero-wrap-->
+				<div class="hero-mask opacity-8 bg-dark"></div>
+				<div class="hero-bg" style="background-image:url('./images/intro-bg.jpg');"></div>
+				<div class="hero-content fullscreen d-flex flex-column">
+					<!-- hero-content-->
+					<!-- Main Navigation-->
+					<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+						<!-- id @mainNav-->
+						<div class="container px-4 px-lg-5" itemscope itemtype="https://schema.org/SiteNavigationElement">
+							<!-- schema.org scope SiteNavigationElement-->
+							<a class="navbar-brand btn-enl-lg" href="javascript:void(0)" title="">Your Company</a>
+							<meta itemprop="name" content="">
+							<meta itemprop="description" content="">
+							<!-- .title .meta-->
+							<button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+							<!-- .button-->
+							<div class="collapse navbar-collapse" id="navbarResponsive">
+								<!-- id @navbarResponsive-->
+								<ul class="navbar-nav ms-auto my-2 my-lg-0">
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="https://codex.gq/#about" target="_top" rel="noopener" title="">
+											<span itemprop="name" content="">About</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="https://codex.gq/#services" target="_top" rel="noopener" title="">
+											<span itemprop="name" content="">Services</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="https://codex.gq/#solutions" target="_top" rel="noopener" title="">
+											<span itemprop="name" content="">Solutions</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="https://codex.gq/#products" target="_top" rel="noopener" title="">
+											<span itemprop="name" content="">Products</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="https://codex.gq/#contact" target="_top" rel="noopener" title="">
+											<span itemprop="name" content="">Contact</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+									<li class="nav-item">
+										<a itemprop="url" class="nav-link" href="javascript:void(0)" target="_top" rel="noopener" title="">
+											<svg class="bi bi-cart text-primary btn-enl-lg" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+											</svg>
+											<!-- .bs-icon-->
+											<span itemprop="name" content="">&nbsp;Store</span>
+											<meta itemprop="description" content="">
+											<!-- .meta-->
+										</a>
+										<!-- .url-->
+									</li>
+									<!-- .element-->
+								</ul>
+								<!-- .array-->
+							</div>
+							<!-- .id @navbarResponsive-->
+						</div>
+						<!-- .container .SiteNavigationElement-->
+					</nav>
+					<!-- .id @mainNav-->
+					<!-- END Main Navigation-->
+					<!-- Interactive Navigation 1: Upper Left Extra Buttons-->
+					<div class="container" itemscope itemtype="https://schema.org/SiteNavigationElement">
+						<!-- schema.org scope SiteNavigationElement-->
+						<meta itemprop="name" content="">
+						<meta itemprop="description" content="">
+						<!-- .meta-->
+						<!-- Upper Left Extra Button (1) HTML. Information Popup Button: Popup 1-->
+						<a data-bs-toggle="modal" data-bs-target="#info-1-part" href="javascript:void(0)" title="">
+							<svg id="btn-nav-1" class="bi bi-info-circle fs-1 text-primary btn-enl-lg" width="1.0em" height="1.0em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+								<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+							</svg>
+							<!-- .bs-icon-->
+							<meta itemprop="name" content="">
+							<meta itemprop="description" content="">
+							<!-- .meta-->
+						</a>
+						<!-- .modal-call .element-->
+						<!-- END Upper Left Extra Button (1) HTML-->
+						<!-- Upper Left Extra Button (2) HTML. Information Popup Button: Popup 2-->
+						<a data-bs-toggle="modal" data-bs-target="#info-2-part" href="javascript:void(0)" title="">
+							<svg id="btn-nav-2" class="bi bi-award fs-1 text-primary btn-enl-lg" width="1.0em" height="1.0em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+								<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+							</svg>
+							<!-- .bs-icon-->
+							<meta itemprop="name" content="">
+							<meta itemprop="description" content="">
+							<!-- .meta-->
+						</a>
+						<!-- .modal-call .element-->
+						<!-- END Upper Left Extra Button (2) HTML-->
+					</div>
+					<!-- .container .SiteNavigationElement-->
+					<!-- END Interactive Navigation 1: Upper Left Extra Buttons-->
+					<!-- Interactive Navigation 2: Upper Right Extra Buttons-->
+					<!-- Upper Right Extra Button (1) HTML. Hreflang Menu: Switch Languages Dropdown-->
+					<div class="dropdown" itemscope itemtype="https://schema.org/SiteNavigationElement">
+						<!-- schema.org scope SiteNavigationElement-->
+						<meta itemprop="name" content="">
+						<meta itemprop="description" content="">
+						<!-- .meta-->
+						<svg id="btn-nav-3" class="bi bi-geo-alt fs-1 text-primary btn-enl-lg dropdown-toggle" role="button" data-bs-toggle="dropdown" width="1.0em" height="1.0em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-haspopup="true" aria-expanded="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+						</svg>
+						<!-- .bs-icon-->
+						<div class="dropdown-menu dropdown-menu-end" aria-labelledby="btn-nav-2">
+							<span class="dropdown-item span-item" itemprop="name" content=""><span class="border-bottom-1">English</span></span>
+							<meta itemprop="description" content="">
+							<!-- .element-->
+							<a itemprop="url" class="dropdown-item" href="javascript:void(0)" hreflang="zxx"><span itemprop="name" content="">Spanish (Español)</span>
+								<meta itemprop="description" content="">
+							</a>
+							<!-- .url .element-->
+						</div>
+						<!-- .array-->
+					</div>
+					<!-- .SiteNavigationElement-->
+					<!-- END Upper Right Extra Button (1) HTML-->
+					<!-- END Interactive Navigation 2: Upper Right Extra Buttons-->
+					<!-- START Main Content-->
+					<div class="container py-5 px-4 px-lg-5 my-auto">
+						<!-- container-main-content-->
+						<!-- Domain Details-->
+						<div class="row">
+							<!-- row-->
+							<!-- Interactive Navigation 3: Content Based Extra Buttons-->
+							<div class="col-12 text-center mx-auto align-self-end mt-5" itemscope itemtype="https://schema.org/SiteNavigationElement">
+								<!-- schema.org scope SiteNavigationElement-->
+								<!-- align-text-->
+								<h1 class="text-14 font-weight-700 text-white bg-danger d-inline-block rounded px-4 mb-4">For Sale!</h1>
+								<h2 class="text-19 font-weight-700 text-white mb-4">YourDomain.com</h2>
+								<h3 class="text-white font-weight-400 mb-4">Estimated Value <span class="bg-success d-inline-block rounded text-9 font-weight-600 px-2 mb-4">$599.99</span><span>&nbsp;&nbsp;</span><!-- domain-price-->
+									<!-- Content Based Extra Button (1). Offer Popup Button: Popup 3-->
+									<a data-bs-toggle="modal" data-bs-target="#offer-part" href="#" title="">
+										<svg class="bi bi-question-circle fs-1 text-primary btn-enl-lg" width="1.0em" height="1.0em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+											<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+										</svg>
+										<!-- .bs-icon-->
+										<meta itemprop="name" content="">
+										<meta itemprop="description" content="">
+										<!-- .meta-->
+									</a>
+									<!-- .modal-call .element-->
+									<!-- END Content Based Extra Button (1). Offer Popup Button: Popup 3-->
+								</h3>
+								<!-- .domain-price-->
+								<!-- END Interactive Navigation 3: Content Based Extra Buttons-->
+								<p class="text-4 text-light mb-4 mx-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+								<p class="mb-5"><code class="text-white-75">&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;</code></p>
+								<a class="btn btn-primary btn-xl btn-std" style="letter-spacing: 2px;" href="javascript:void(0)" target="_top" rel="noopener" title="">Buy it now</a>
+							</div>
+							<!-- .align-text-->
+							<!-- .SiteNavigationElement-->
+						</div>
+						<!-- .row-->
+						<!-- END Domain Details-->
+					</div>
+					<!-- .container-main-content-->
+					<!-- END Main Content-->
+					<!-- Interactive Navigation 4: Lower Left Extra Buttons-->
+					<div class="container" itemscope itemtype="https://schema.org/SiteNavigationElement">
+						<!-- schema.org scope SiteNavigationElement-->
+						<meta itemprop="name" content="">
+						<meta itemprop="description" content="">
+						<!-- .meta-->
+						<!-- Lower Left Extra Button (1) HTML. Contact-->
+						<a href="mailto:name@email(dot)address?subject=I%20want%20to%20buy%20YourDomain.com" target="_top" rel="noopener nofollow" title="">
+							<svg id="btn-nav-4" class="bi bi-envelope fs-1 text-primary btn-enl-lg" width="1.0em" height="1.0em" viewBox="0 0 16 16" fill="currentColor" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+							</svg>
+							<!-- .bs-icon-->
+							<meta itemprop="name" content="">
+							<meta itemprop="description" content="">
+							<!-- .meta-->
+						</a>
+						<!-- .mailto .element-->
+						<!-- END Lower Left Extra Button (1) HTML-->
+					</div>
+					<!-- .SiteNavigationElement-->
+					<!-- END Interactive Navigation 4: Lower Left Extra Buttons-->
+					<!-- Powered by Text-->
+					<footer itemscope itemtype="http://schema.org/WPFooter">
+						<!-- schema.org scope WPFooter-->
+						<div class="container text-center">
+							<p class="text-2 text-light mb-2">Copyright &copy; <span itemprop="copyrightYear" content="">2022</span> <a href="javascript:void(0)" class="text-decoration-none border-bottom-1">Your Company</a></p>
+							<p class="text-light text-muted txt-x-small">Powered by <a href="https://codex.gq/" target="_top" rel="noopener" title="codexgq - Moving The Web" class="text-decoration-none border-bottom-1">codexgq</a></p>
+						</div>
+						<meta itemprop="copyrightHolder" content="">
+						<!-- .meta-->
+					</footer>
+				</div><!-- .hero.content-->
+			</section><!-- .section-hero-wrap-->
+		</div><!-- container-fluid-->
+	</div><!-- .id @main-wrapper-->
+	<!-- END Document Wrapper-->
+	<!-- START Popups Content-->
+	<!-- Information Popup Content: Popup 1-->
+	<div id="info-1-part" class="modal fade" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title fw-bold">Lorem Ipsum 1</h4>
+					<span class="close text-7 font-weight-400 span-item" data-bs-dismiss="modal" aria-label=""> <span aria-hidden="true">&times;</span> </span>
+				</div>
+				<div class="modal-body p-4">
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nam aliquam sem et tortor consequat id porta nibh. Nullam vehicula ipsum a arcu cursus.</p>
+					<p><a data-bs-toggle="modal" data-bs-target="#info-2-part" href="#" class="rounded"><code class="txt-larger">Learn more...</code></a></p>
+					<p class="mb-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<br>
+					<div class="d-grid gap-2">
+						<a class="btn btn-primary text-white text-uppercase text-decoration-none" style="letter-spacing: 1px;" href="javascript:void(0)" target="_top" rel="noopener" title="">Buy it now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Information Popup Content: Popup 1-->
+	<!-- Information Popup Content: Popup 2-->
+	<div id="info-2-part" class="modal fade" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title fw-bold">Lorem Ipsum 2</h4>
+					<span class="close text-7 font-weight-400 span-item" data-bs-dismiss="modal" aria-label=""> <span aria-hidden="true">&times;</span> </span>
+				</div>
+				<div class="modal-body p-4">
+					<p class="mb-4">Enim ut sem viverra aliquet eget. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Non arcu risus quis varius. Platea dictumst vestibulum rhoncus est pellentesque. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit.</p>
+					<p class="mb-4">Arcu bibendum at varius vel pharetra vel. Consectetur adipiscing elit duis tristique sollicitudin nibh sit. Eu scelerisque felis imperdiet proin. Praesent semper feugiat nibh sed pulvinar. Mus mauris vitae ultricies leo integer malesuada nunc. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur.</p>
+					<p class="mb-4">Natoque penatibus et magnis dis parturient montes. Amet volutpat consequat mauris nunc congue nisi vitae suscipit.</p>
+					<div class="d-grid gap-2">
+						<a class="btn btn-primary text-white text-uppercase text-decoration-none" style="letter-spacing: 1px;" href="javascript:void(0)" target="_top" rel="noopener" title="">Buy it now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Information Popup Content: Popup 2-->
+	<!-- Offer Popup Content: Popup 3-->
+	<div id="offer-part" class="modal fade" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title fw-bold">Lorem Ipsum 3</h4>
+					<span class="close text-7 font-weight-400 span-item" data-bs-dismiss="modal" aria-label=""> <span aria-hidden="true">&times;</span> </span>
+				</div>
+				<div class="modal-body p-4">
+					<p class="mb-4">Lectus urna duis convallis convallis tellus. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.</p>
+					<p class="mb-4"> Nibh praesent tristique magna sit amet purus gravida quis blandit. Tellus cras adipiscing enim eu turpis. Fames ac turpis egestas sed tempus urna. Massa eget egestas purus viverra accumsan in nisl nisi. Nulla facilisi morbi tempus iaculis urna id volutpat. Faucibus pulvinar elementum integer enim. Tristique senectus et netus et malesuada fames. Mauris nunc congue nisi vitae suscipit tellus mauris. Fermentum dui faucibus in ornare quam viverra orci sagittis eu.</p>
+					<p class="mb-4">Gravida arcu ac tortor dignissim. Velit laoreet id donec ultrices tincidunt arcu non.</p>
+					<div class="d-grid gap-2">
+						<a class="btn btn-primary text-white text-uppercase text-decoration-none" style="letter-spacing: 1px;" href="javascript:void(0)" target="_top" rel="noopener" title="">Buy it now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Offer Popup Content: Popup 3-->
+	<!-- END Popups Content-->
+	<!-- END SITE CONTENT-->
+	<!-- Vendor JS-->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js" integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Tneme JS-->
+	<script defer src="js/scripts.js"></script>
+	<!-- Inline JavaScript (JS)-->
+	<!-- Lazy Load Images (The running script is in the '<head>' inline)-->
+	<script>
+	// Call the function.
+	deferimg('img[data-src],picture[srcset]')
+	</script>
+	<!-- END Inline JavaScript (JS)-->
+	<!-- .that's all folks!-->
+</body>
+<!-- Theme: Domain For Sale Free Theme v1.0.0 (GitHub: https://github.com/codexgq/domain-for-sale-free-theme). Author: codexgq (URL: https://codex.gq Email: info@codex.gq). License: MIT. Copyright © 2014-2022 - codexgq, Inc.-->
+
+</html>

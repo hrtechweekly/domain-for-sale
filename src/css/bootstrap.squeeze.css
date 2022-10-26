@@ -1,0 +1,410 @@
+@charset "UTF-8";
+
+/*
+* Theme: Domain For Sale Free Theme v1.0.0
+* Author: codexgq (URL: https://codex.gq GitHub: https://github.com/codexgq)
+* Description: Custom CSS Takeaway
+* GitHub: https://github.com/codexgq/domain-for-sale-free-theme
+* Copyright: 2014-2022 codexgq, Inc.
+* License: MIT
+*/
+
+/* Source Code:
+
+/*!
+* startbootstrap-creative-codexgq v1.0.0 (https://github.com/codexgq/startbootstrap-creative-codexgq)
+* Copyright 2014-2022 codexgq, Inc.
+* Licensed under MIT (https://github.com/codexgq/startbootstrap-creative-codexgq/blob/master/LICENSE)
+*/
+
+/*!
+* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+*/
+
+/* Description: Customization Takeaway performed by codexgq Team
+
+/*!
+* Important Note: 
+  The following styles where customized for Bootstrap v5.1.3 implementation but may apply for any of Bootstrap 5 versions.
+
+/* These styles are aimed to improve UI & UX for the theme. */
+
+:root {
+    --bs-orange: #f4623a;
+    --bs-primary: #f4623a;
+    --bs-primary-rgb: 244, 98, 58;
+    --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+    text-size-adjust: 100%;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    color: #f4623a;
+}
+  a:hover {
+    color: #c34e2e;
+}
+
+th {
+    text-align: -webkit-match-parent;
+    text-align: inherit;
+}
+
+.table-primary {
+    --bs-table-bg: #fde0d8;
+    --bs-table-striped-bg: #f0d5cd;
+    --bs-table-active-bg: #e4cac2;
+    --bs-table-hover-bg: #eacfc8;
+    border-color: #e4cac2;
+}
+
+.form-control {
+    -webkit-background-clip: padding-box;
+}
+
+.form-control:focus {
+    border-color: #fab19d;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.form-select:focus {
+    border-color: #fab19d;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.form-check-input:focus {
+    border-color: #fab19d;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.form-check-input[type=checkbox]:indeterminate {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.form-switch .form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fab19d'/%3e%3c/svg%3e");
+}
+
+.form-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+  .form-range:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #f4623a;
+}
+
+.form-range::-webkit-slider-thumb:active {
+    background-color: #fcd0c4;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #f4623a;
+}
+
+.form-range::-moz-range-thumb:active {
+    background-color: #fcd0c4;
+}
+
+.form-floating > .form-control:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-floating > .form-control:not(:-ms-input-placeholder) {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.form-floating > .form-control:not(:-ms-input-placeholder) ~ label {
+    opacity: 0.65;
+    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+.btn {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -ms-user-select: none;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.btn-primary {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn-primary:hover {
+    background-color: #cf5331;
+    border-color: #c34e2e;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    background-color: #cf5331;
+    border-color: #c34e2e;
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    background-color: #c34e2e;
+    border-color: #b74a2c;
+}
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+}
+  
+.btn-primary:disabled, .btn-primary.disabled {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn-outline-primary {
+    color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn-outline-primary:hover {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.5);
+}
+
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.5);
+}
+
+.btn-outline-primary:disabled, .btn-outline-primary.disabled {
+    color: #f4623a;
+}
+
+.btn-link {
+    color: #f4623a;
+}
+  
+.btn-link:hover {
+    color: #c34e2e;
+}
+
+.dropdown-menu {
+    -webkit-background-clip: padding-box;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #f4623a;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    background-color: #f4623a;
+}
+
+.nav-link {
+    color: #f4623a;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #c34e2e;
+}
+
+.nav-pills .show > .nav-link {
+    background-color: #f4623a;
+}
+
+.card {
+    -webkit-background-clip: padding-box;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #dc5834;
+    background-color: #feefeb;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23dc5834'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+    border-color: #fab19d;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.page-link {
+    color: #f4623a;
+}
+
+.page-link:hover {
+    color: #c34e2e;
+}
+
+.page-link:focus {
+    color: #c34e2e;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.page-item.active .page-link {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.alert-primary {
+    color: #923b23;
+    background-color: #fde0d8;
+    border-color: #fcd0c4;
+}
+
+.alert-primary .alert-link {
+    color: #752f1c;
+}
+
+.alert-info {
+    color: #087990;
+}
+  
+.alert-info .alert-link {
+    color: #066173;
+}
+  
+.alert-warning {
+    color: #997404;
+}
+
+.alert-warning .alert-link {
+    color: #7a5d03;
+}
+
+.progress-bar {
+    background-color: #f4623a;
+}
+
+.list-group-item.active {
+    background-color: #f4623a;
+    border-color: #f4623a;
+}
+
+.list-group-item-primary {
+    color: #923b23;
+    background-color: #fde0d8;
+}
+
+.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
+    color: #923b23;
+    background-color: #e4cac2;
+}
+  
+.list-group-item-primary.list-group-item-action.active {
+    background-color: #923b23;
+    border-color: #923b23;
+}
+
+.list-group-item-info {
+    color: #087990;
+}
+
+.list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
+    color: #087990;
+}
+  
+.list-group-item-info.list-group-item-action.active {
+    background-color: #087990;
+    border-color: #087990;
+}
+  
+.list-group-item-warning {
+    color: #997404;
+}
+  
+.list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
+    color: #997404;
+}
+  
+.list-group-item-warning.list-group-item-action.active {
+    background-color: #997404;
+    border-color: #997404;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+}
+
+.btn-close:disabled, .btn-close.disabled {
+    -ms-user-select: none;
+}
+
+.toast {
+    -webkit-background-clip: padding-box;
+}
+
+.toast-header {
+    -webkit-background-clip: padding-box;
+}
+
+.modal-content {
+    -webkit-background-clip: padding-box;
+}
+
+.tooltip {
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.popover {
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-background-clip: padding-box;
+}
+
+.carousel-indicators [data-bs-target] {
+    -webkit-background-clip: padding-box;
+}
+
+.offcanvas {
+    -webkit-background-clip: padding-box;
+}
+
+.link-primary {
+    color: #f4623a;
+}
+
+.link-primary:hover, .link-primary:focus {
+    color: #c34e2e;
+}
+
+.border-primary {
+    border-color: #f4623a !important;
+}
+
+.user-select-auto {
+    -ms-user-select: auto !important;
+}
+
+.user-select-none {
+    -ms-user-select: none !important;
+}

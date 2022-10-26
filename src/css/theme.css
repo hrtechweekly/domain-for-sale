@@ -1,0 +1,170 @@
+/*
+* Theme: Domain For Sale Free Theme v1.0.0
+* Author: codexgq (URL: https://codex.gq GitHub: https://github.com/codexgq)
+* Description: Main Theme Custom CSS
+* GitHub: https://github.com/codexgq/domain-for-sale-free-theme
+* Copyright: 2014-2022 codexgq, Inc.
+* License: MIT
+*/
+
+/* These styles are theme specific and to be placed either in file or inline. */
+
+/*!
+Upper Left Extra Button (1) CSS
+*/
+#btn-nav-1 {
+position: fixed !important;
+top: 88px;
+left: 16px;
+z-index: 999 !important;
+cursor: pointer !important;
+}
+
+#btn-nav-1:hover {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+/*!
+Upper Left Extra Button (2) CSS
+*/
+#btn-nav-2 {
+position: fixed !important;
+top: 88px;
+left: 72px;
+z-index: 999 !important;
+cursor: pointer !important;
+}
+
+#btn-nav-2:hover {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+/*!
+Upper Right Extra Button (3) CSS
+*/
+#btn-nav-3 {
+position: fixed !important;
+top: 88px;
+right: 16px;
+z-index: 999 !important;
+cursor: pointer !important;
+}
+
+#btn-nav-3:hover {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+/*!
+Lower Left Extra Button (4) CSS
+*/
+#btn-nav-4 {
+position: fixed !important;
+bottom: 88px;
+left: 16px;
+z-index: 999 !important;
+cursor: pointer !important;
+}
+    
+#btn-nav-4:hover {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+/*!
+Any Button on Hover Behavior
+*/
+.btn-act:hover {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+/*!
+Any Button Enlarge on Hover
+*/
+.btn-enl-lg:hover {
+transform: scale(1.2);
+}
+
+.btn-enl-xl:hover {
+transform: scale(1.5);
+}
+
+.btn-enl-lg:hover,
+.btn-enl-xl:hover {
+color: #0d6efd !important;
+}
+
+/*!
+Badge on Hover Behavior
+*/
+.bdg-enl:hover {
+transform: scale(1.05);
+}
+
+/*!
+Any Button Standard Width
+*/
+.btn-std {
+width: 256px !important;
+}
+
+/*!
+Any List Item Color and on Hover Behavior
+*/
+.list-unstyled-item {
+color: #212529 !important;
+}
+
+.list-unstyled-item:hover {
+color: #f4623a !important;
+}
+
+/*!
+Empty Link Item
+*/
+.span-item {
+cursor: pointer !important;
+}
+
+/*!
+Dotted Underline
+*/
+.border-bottom-1 {
+border-bottom: 1px dotted black !important;
+}
+
+/*!
+Text Size Options
+*/
+.txt-smaller {
+font-size: smaller;
+}
+
+.txt-x-small {
+font-size: x-small;
+}
+
+.txt-larger {
+font-size: larger;
+}
+
+/*!
+Center Image
+*/
+img.center {
+display: block;
+margin: 0 auto;
+}
+
+/*!
+Flex Box (Place It in the Very Center)
+*/
+.flex-box {
+position: relative !important;
+top: 50% !important;
+left: 50% !important;
+transform: translate(-50%, -50%) !important;
+}
