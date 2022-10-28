@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1200px) {
   .text-19 {
-    font-size: calc(1.525rem + 3.3vw)  !important; /* 1.65 rem + 4.8vw */ /* Edited by codexgq Team */
+    font-size: calc(1.475rem + 2.7vw)  !important; /* Original: 1.65 rem + 4.8vw Variable: 1.525rem + 3.3vw */ /* Edited by codexgq Team */
   }
 }
 
