@@ -74,6 +74,17 @@ filter: alpha(opacity=75);
 }
 
 /*!
+Upper Left Extra Button (5) CSS
+*/
+#btn-nav-5 {
+position: fixed !important;
+top: 88px;
+left: 128px;
+z-index: 999 !important;
+cursor: pointer !important;
+}
+
+/*!
 Any Button on Hover Behavior
 */
 .btn-act:hover {
@@ -167,4 +178,11 @@ position: relative !important;
 top: 50% !important;
 left: 50% !important;
 transform: translate(-50%, -50%) !important;
+}
+
+/*!
+Margin Top (Over Bootstrap)
+*/
+.mt-6 {
+margin-top: 6rem !important;
 }

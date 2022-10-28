@@ -621,7 +621,7 @@ body, html {
     .text-9 {
       font-size: calc(1.35rem + 1.2vw)  !important;
     }
-  }
+  } /* @media for text-9 added by codexgq Team */
   
   .text-10 {
     font-size: 40px !important;
@@ -631,7 +631,7 @@ body, html {
     .text-10 {
       font-size: calc(1.375rem + 1.5vw)  !important;
     }
-  }
+  } /* @media for text-10 added by codexgq Team */
   
   .text-11 {
     font-size: 2.75rem !important;
@@ -705,12 +705,12 @@ body, html {
     }
   }
   
-  .text-19 {
+  .text-19 { 
     font-size: 5.25rem !important;
   }
   @media (max-width: 1200px) {
     .text-19 {
-      font-size: calc(1.65rem + 4.8vw)  !important;
+      font-size: calc(1.525rem + 3.3vw)  !important; /* 1.65 rem + 4.8vw */ /* Edited by codexgq Team */
     }
   }
   
@@ -1213,6 +1213,17 @@ Upper Left Extra Button (1) CSS
     z-index: 999 !important;
     cursor: pointer !important;
     }
+
+    /*!
+    Upper Left Extra Button (5) CSS
+    */
+    #btn-nav-5 {
+    position: fixed !important;
+    top: 88px;
+    left: 128px;
+    z-index: 999 !important;
+    cursor: pointer !important;
+    }
   
     #btn-nav-4:hover {
     opacity: 0.75;
@@ -1313,5 +1324,12 @@ Upper Left Extra Button (1) CSS
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
+    }
+
+	  /*!
+    Margin Top (Over Bootstrap)
+    */
+    .mt-6 {
+    margin-top: 6rem !important;
     }
   
